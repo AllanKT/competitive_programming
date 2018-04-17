@@ -1,0 +1,6 @@
+num = int(input())
+print(num//365, 'ano(s)')
+num = num-(365*(num//365))
+print(num//30, 'mes(es)')
+num = num-(30*(num//30))
+print(num, 'dia(s)')
